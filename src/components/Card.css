@@ -14,3 +14,8 @@
 .gif{
     grid-column: 2/3;
 }
+
+img{
+    width: 20%;
+    min-width: 150px;
+}

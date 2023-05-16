@@ -14,7 +14,7 @@ function Card() {
                 <h3>
                     aqui un gif
                 </h3>
-                <img src={gatoGif} />
+                <img src={gatoGif}/>
             </div>
         </div>
     );
