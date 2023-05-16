@@ -1,6 +1,8 @@
 .container{
     background-color: beige;
     display: grid;
+    margin-top: 35px;
+    margin-bottom: 35px;
     padding: 0 20px 0 20px 0;
     grid-template-columns: 50% 50%;
 }

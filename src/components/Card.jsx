@@ -1,5 +1,5 @@
 import './Card.css';
-
+import gatoGif from '../assets/gato.gif'
 function Card() {
     return (
         <div className="container">
@@ -14,6 +14,7 @@ function Card() {
                 <h3>
                     aqui un gif
                 </h3>
+                <img src={gatoGif} />
             </div>
         </div>
     );
