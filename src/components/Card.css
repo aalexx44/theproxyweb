@@ -1,0 +1,14 @@
+.container{
+    background-color: beige;
+    display: grid;
+    padding: 0 20px 0 20px 0;
+    grid-template-columns: 50% 50%;
+}
+
+.text{
+    grid-column: 1/2;
+}
+
+.gif{
+    grid-column: 2/3;
+}
