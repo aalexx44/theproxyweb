@@ -1,4 +1,3 @@
-import './App.css'
 import BackgroundAnimated from './components/BackgroundAnimated'
 
 function App() {
