@@ -1,15 +1,14 @@
-import ReactPlayer from 'react-player'
-import videoBg from '../assets/animacion.mp4'
+import video from '../assets/animacion.mp4'
 import './BackgroundAnimated.css'
 
 function BackgroundAnimated() {
     return (
         <>
-            <div>
-                <ReactPlayer url={videoBg} playing muted loop playsinline/>
-            </div>
+            <video playsInline autoPlay loop muted>
+                <source src={video} type='video/mp4'/>
+            </video>
 
-            <div className='layer2'></div>
+            <div className='layer'></div>
         </>
     );
 }
