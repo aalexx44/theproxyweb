@@ -4,7 +4,7 @@ import './BackgroundAnimated.css'
 function BackgroundAnimated() {
     return (
         <>
-            <video autoPlay loop muted>
+            <video muted autoPlay loop>
                 <source src={videoBg} type='video/mp4'/>
             </video>
 
