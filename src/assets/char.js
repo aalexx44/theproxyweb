@@ -1,7 +1,7 @@
 const charactersJSON = [
     {
         name: 'vacio',
-        url: '../../assets/vacio.jpg'
+        url: './assets/vacio.jpg'
     },
     {
         name: 'envidia',
