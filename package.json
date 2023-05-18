@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "prod": "npm run start && npx tailwindcss -i ./src/input.css -o ./dist/output.css",
     "start": "npx http-server ./dist",
     "dev": "vite",
     "build": "vite build",
