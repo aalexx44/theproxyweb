@@ -8,7 +8,6 @@ function CharacterList() {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        console.log(characterData[0])
         setData(characterData)
     }, [])
 
