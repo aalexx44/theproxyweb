@@ -4,12 +4,20 @@ import './BackgroundAnimated.css'
 function BackgroundAnimated() {
     return (
         <>
-            <video playsInline autoPlay loop muted>
+            <div className='absolute object-cover bg-blue-900 h-screen opacity-90 mix-blend-overlay -z-2'/>   
+
+            <video
+                playsInline
+                autoPlay
+                loop
+                muted
+                className='fixed'
+            >
                 <source src={video} type='video/mp4'/>
             </video>
 
-            <div className='layer'></div>
         </>
+
     );
 }
 

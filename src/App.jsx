@@ -1,15 +1,19 @@
-import BackgroundAnimated from './components/BackgroundAnimated'
-import Card from './components/Card'
-import TitleCard from './components/TitleCard'
+import BackgroundAnimated from "./components/BackgroundAnimated"
+import Card from "./components/Card"
+import CharacterList from "./components/proxyCharacters/CharacterList"
+import TitleCard from "./components/TitleCard"
+
 
 function App() {
   return (
-    <>
-      <BackgroundAnimated/>
-      <TitleCard title='Luces de Falso Contacto'/>
-      <Card/>
-      <TitleCard title='<3 Bienvenido a tu Destino <3'/>
-    </>
+      <div className="max-w-full grid grid-cols-1 justify-items-center">
+        <TitleCard title="Luces de Falso Contacto"/>
+        <Card/>
+        <TitleCard title="Bienvenido a tu Destino"/>
+        <CharacterList/>
+        <BackgroundAnimated/>
+      </div>
+
   )
 }
 
