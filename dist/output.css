@@ -683,6 +683,11 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .md\:bg-main {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 248 214 / var(--tw-bg-opacity));
+  }
+
   .md\:p-10 {
     padding: 2.5rem;
   }
