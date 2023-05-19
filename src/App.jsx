@@ -1,3 +1,4 @@
+import AudioPlayer from "./components/AudioPlayer"
 import BackgroundAnimated from "./components/BackgroundAnimated"
 import Card from "./components/Card"
 import CharacterList from "./components/proxyCharacters/CharacterList"
@@ -11,6 +12,7 @@ function App() {
         <Card/>
         <TitleCard title="Bienvenido a tu Destino"/>
         <CharacterList/>
+        <AudioPlayer/>
         <BackgroundAnimated/>
       </div>
 
