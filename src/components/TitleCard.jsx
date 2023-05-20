@@ -2,7 +2,7 @@ import './TitleCard.css';
 
 function TitleCard({title=''}) {
     return (
-        <div className='bg-main mt-6 w-11/12 md:w-1/2'>
+        <div className='bg-main w-full mt-4'>
             <h1 className="text-5xl text-center">
                 {title}
             </h1>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import characterData from '../../assets/char.js'
 import CharacterCard from './CharacterCard'
-import vacio from '../../assets/vacio.jpg'
+import vacio from '../../assets/sara.gif'
 
 function CharacterList() {
 
@@ -13,9 +13,9 @@ function CharacterList() {
 
 
     return (
-        <div className='md:bg-main mt-6 w-11/12 md:w-1/2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-items-center p-5 md:p-10'>
+        <div className='md:bg-main mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 justify-items-center p-5 md:p-10'>
             {data.map(item => (
-            <CharacterCard key={item.name} name={item.name} url={vacio} />
+            <CharacterCard key={item.id} name={item.name} url={vacio} />
             ))}
         </div>
     );

@@ -8,7 +8,7 @@ function AudioPlayer() {
 
 
     return (
-        <div className=" grid bg-main w-full justify-items-center fixed bottom-0 left-0 right-0 z-50">
+        <div className=" grid bg-second w-full justify-items-center fixed bottom-0 left-0 right-0 z-50">
             <ReactAudioPlayer
                 src={audio}
                 autoPlay

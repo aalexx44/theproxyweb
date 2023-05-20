@@ -7,7 +7,9 @@ import TitleCard from "./components/TitleCard"
 
 function App() {
   return (
-      <div className="max-w-full grid grid-cols-1 justify-items-center">
+    <div className="flex justify-items-center justify-center">
+
+      <div className="grid justify-items-center w-11/12 max-w-5xl">
         <TitleCard title="Luces de Falso Contacto"/>
         <Card/>
         <TitleCard title="Bienvenido a tu Destino"/>
@@ -16,6 +18,7 @@ function App() {
         <BackgroundAnimated/>
       </div>
 
+    </div>
   )
 }
 

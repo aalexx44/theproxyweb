@@ -10,7 +10,10 @@ export default {
       colors: {
         'main': '#FFF8D6',
         'second': '#F7E1AE'
-      }
+      },
+      screens: {
+        'uxl': '1780px'
+      },
     },
   },
   plugins: [],

@@ -1,37 +1,44 @@
 const charactersJSON = [
     {
-        name: 'vacio',
+        id: 1,
+        name: 'Vacio',
         url: './assets/vacio.jpg'
     },
     {
-        name: 'envidia',
+        id: 2,
+        name: 'Frustración',
         url: '../../assets/vacio.jpg'
     },
     {
-        name: 'miedo',
+        id: 3,
+        name: 'Agobio',
         url: '../../assets/vacio.jpg'
     },
     {
-        name: 'alegria',
+        id: 4,
+        name: 'Miedo',
         url: '../../assets/vacio.jpg'
     },
     {
-        name: 'vacio',
+        id: 5,
+        name: '????',
         url: '../../assets/vacio.jpg'
     },
     {
-        name: 'envidia',
+        id: 8,
+        name: 'Rabia',
         url: '../../assets/vacio.jpg'
     },
     {
-        name: 'miedo',
+        id: 6,
+        name: 'Impotencia',
         url: '../../assets/vacio.jpg'
     },
     {
-        name: 'alegria',
+        id: 7,
+        name: 'Dolor',
         url: '../../assets/vacio.jpg'
-    },
-
+    }
 ]
 
 export default charactersJSON
