@@ -14,6 +14,9 @@ export default {
       screens: {
         'uxl': '1780px'
       },
+      fontFamily: {
+        'proxy': ['Another Typewriter', 'in Fancy']
+      }
     },
   },
   plugins: [],
