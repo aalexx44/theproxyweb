@@ -4,7 +4,6 @@ import Card from "./components/Card"
 import CharacterList from "./components/proxyCharacters/CharacterList"
 import TitleCard from "./components/TitleCard"
 
-
 function App() {
   return (
     <div className="flex justify-items-center justify-center">

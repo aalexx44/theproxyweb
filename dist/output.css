@@ -655,7 +655,7 @@ video {
 }
 
 .font-proxy {
-  font-family: Another Typewriter, in Fancy;
+  font-family: Pangolin, cursive;
 }
 
 .text-3xl {
@@ -732,9 +732,16 @@ video {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 @media (min-width: 1536px) {
   .\32xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
 
