@@ -1,8 +1,8 @@
-import AudioPlayer from "./components/AudioPlayer"
 import BackgroundAnimated from "./components/BackgroundAnimated"
 import Card from "./components/Card"
 import CharacterList from "./components/proxyCharacters/CharacterList"
 import TitleCard from "./components/TitleCard"
+import { AudioPlayer } from "./components/AudioPlayer"
 
 function App() {
   return (
