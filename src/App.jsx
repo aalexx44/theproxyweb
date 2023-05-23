@@ -13,6 +13,7 @@ function App() {
         <Card/>
         <TitleCard title="Bienvenido a tu Destino"/>
         <CharacterList/>
+        <TitleCard></TitleCard>
         <AudioPlayer/>
         <BackgroundAnimated/>
       </div>
