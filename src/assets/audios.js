@@ -1,24 +1,28 @@
-const Audios = [
+const audios = [
     {
-        name: "Song 2",
+        title: "Song  2",
+        id: 1,
         author: "Blur",
-        url: "https://www.song.com"
+        url: "../../assets/track1.mp3"
     },
     {
-        name: "Swing Lynn",
+        title: "Swing Lynn",
+        id: 2,
         author: "I'm sure",
-        url: "https://www.song.com"
+        url: "../assets/track1.mp3"
     },
     {
-        name: "Go kitty Go",
+        title: "Go kitty Go",
+        id: 3,
         author: "Go kitty go",
-        url: "https://www.song.com"
+        url: "../assets/track1.mp3"
     },
     {
-        name: "Hay que abandonar este lugar",
+        title: "Hay que abandonar este lugar",
+        id: 4,
         author: "Depresion sonora",
-        url: "https://www.song.com"
+        url: "../assets/track1.mp3"
     },
 ]
 
-export default Audios
+export default audios
