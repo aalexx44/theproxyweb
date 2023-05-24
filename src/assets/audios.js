@@ -2,7 +2,7 @@ const audios = [
     {
         title: "Emociones inútiles",
         id: 1,
-        author: "Blur",
+        author: "Saúl Benjamin",
         url: "../../assets/track1.mp3"
     },
     {
