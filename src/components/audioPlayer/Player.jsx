@@ -85,7 +85,7 @@ const Player = ({audioElem, isPlaying, setIsPlaying, currentSong, setCurrentSong
         </div>
 
         <div className='lg:col-start-4'>
-            <h3>{currentSong.title}</h3>
+            <h3>{currentSong.title} - {currentSong.author}</h3>
         </div>
 
     </div>
