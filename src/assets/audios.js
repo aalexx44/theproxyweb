@@ -1,6 +1,6 @@
 const audios = [
     {
-        title: "Song  2",
+        title: "Emociones inútiles",
         id: 1,
         author: "Blur",
         url: "../../assets/track1.mp3"

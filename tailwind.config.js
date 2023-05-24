@@ -9,7 +9,8 @@ export default {
     extend: {
       colors: {
         'main': '#FFF8D6',
-        'second': '#F7E1AE'
+        'second': '#F7E1AE',
+        "pbar": '#808080'
       },
       screens: {
         'uxl': '1780px'

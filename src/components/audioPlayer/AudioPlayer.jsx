@@ -26,7 +26,7 @@ const AudioPlayer = () => {
     }, [isPlaying])
 
     return(
-        <div className="bg-second p-3 grid w-full justify-items-center fixed bottom-0 left-0 right-0 z-50">
+        <div className="bg-second p-3 w-full fixed bottom-0 left-0 right-0 z-50">
             <audio src={audioRef} ref={audioElem} onTimeUpdate={onPlaying}/>
             <Player songs={songs} setSongs={setSongs} isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioElem={audioElem} currentSong={currentSong} setCurrentSong={setCurrentSong} />
         </div>

@@ -1,4 +1,4 @@
-import video from '../assets/animacion.mp4'
+import video from '../assets/anCompress.mp4'
 import './BackgroundAnimated.css'
 
 function BackgroundAnimated() {
